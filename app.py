@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 from PIL import Image
 
-image = Image.open('img/phweb.jpg')
+image = Image.open('images/phishing web.jpg')
 
 st.image(image, caption='Credits: Pexel.com',width=700)
  
